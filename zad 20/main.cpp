@@ -20,15 +20,14 @@ int main()
     cout << "Podaj kolejna liczbe naturalna: ";
     cin >> c;
 
-    do(a>=1 && b>=1 && c>=1)
+    do
     {
-        cout << endl;
-        cout << "To nie jest liczba naturalna" << endl;
-    }
+        d=(a+b+c/3);
+        cout << "wynik" << d << endl;
 
-    while{
-        d=(a+b+c/3)
-        cout << "wynik" << d;
-    }
+    }while(a>=1 && b>=1 && c>=1);
+
+
+
     return 0;
 }
